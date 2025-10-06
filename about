@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">Your Name</h1>
+      <p class="site-tagline">Developer • Designer • Creator</p>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="about" class="section about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I’m a creative web developer with a passion for colorful, intuitive design. I build things that delight users.
+      </p>
+    </div>
+  </section>
+
+  <section id="projects" class="section projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Project One</h3>
+          <p>Short description of this project. What it does, what technologies used, etc.</p>
+          <a href="#">View Project →</a>
+        </div>
+        <div class="project-card">
+          <h3>Project Two</h3>
+          <p>Another project description here. Make it vibrant!</p>
+          <a href="#">View Project →</a>
+        </div>
+        <!-- Add more projects -->
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+      <p>
+        Find me on:
+        <a href="https://github.com/yourusername">GitHub</a> |
+        <a href="https://linkedin.com/in/yourprofile">LinkedIn</a>
+      </p>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Your Name. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
